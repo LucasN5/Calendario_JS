@@ -1,0 +1,86 @@
+body {
+  background-color: #121921;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 55px;
+}
+
+#containerTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+#calendarTitle {
+  font-size: 50px;
+  color: white;
+  font-family: "Roboto";
+}
+
+#containerLanguage {
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  width: 100%;
+
+  gap: 10px;
+}
+
+#containerLanguage > select {
+  width: 25%;
+}
+
+#sectionCalendar {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+#containerCalendar {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+  border-width: 2px;
+  border-radius: 6px;
+  border-color: white;
+  border-style: solid;
+}
+
+#containerMonth {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#containerWeek > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+label {
+  color: white;
+}
+
+p {
+  color: white;
+  font-family: "Roboto";
+}
+
+ul > li {
+  color: white;
+  font-family: "Roboto";
+}
